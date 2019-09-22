@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/approved', function () {
+    return view('approved.index');
+});

@@ -2,7 +2,7 @@
 
       <h4 class=""><i class="fa fa-book"></i> Prpose and goals</h4>
         <div class="col-md-12">
-          <button type="btton" class="btn pull-right btn-success">View Statemet of Applicability</button>
+          <button type="btton" class="btn pull-right btn-xs btn-success">View Statemet of Applicability</button>
         </div>
       <div class="row">
         <!-- /.col (left) -->

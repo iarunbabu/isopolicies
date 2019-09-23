@@ -175,5 +175,17 @@
 
 <!-- AdminLTE for demo purposes -->
 <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/ckeditor.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap3-wysihtml5.all.min.js') }}"></script>
+
+<script>
+  $(function () {
+    // Replace the <textarea id="editor1"> with a CKEditor
+    // instance, using default configuration.
+    CKEDITOR.replace('editor1')
+    //bootstrap WYSIHTML5 - text editor
+    $('.textarea').wysihtml5()
+  })
+</script>
 </body>
 </html>

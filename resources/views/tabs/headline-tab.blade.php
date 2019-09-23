@@ -83,28 +83,103 @@
       <div class="row">
         <!-- /.col (left) -->
                 <div class="col-md-12">
-          <div class="">
+          <div class="row">
             
             <!-- /.box-header -->
             <div class="box-body">
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                Background information
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                ISO Requiremets
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                A5.Information Secrity Policies
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                A6.Organization of Information Secrity
-              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+<!-- info-box-content -->
+            <div class="">
+              <span class="info-box-text text-center text-primary">Completed</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+              <div class="col-md-2 col-sm-6 col-xs-12">
+          <div class="info-box">
+<!-- info-box-content -->
+            <div class="">
+              <span class="info-box-text text-center text-primary">Awaiting approval</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+              <div class="col-md-2 col-sm-6 col-xs-12">
+          <div class="info-box">
+<!-- info-box-content -->
+            <div class="">
+              <span class="info-box-text text-center text-primary">Open</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+              <div class="col-md-2 col-sm-6 col-xs-12">
+          <div class="info-box">
+<!-- info-box-content -->
+            <div class="">
+              <span class="info-box-text text-center text-primary">Overdue</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+
+            <div class="">
+              <span class="info-box-text text-center text-primary">Unassigned</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+              
             </div>
             <!-- /.box-body -->
+            
           </div>
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
+        <div class="col-md-8">
+          <div class="box box-info">
+            <div class="box-header">
+              <h3 class="box-title">Notes
+                <!-- <small></small> -->
+              </h3>
+              <!-- tools box -->
+              <div class="pull-right box-tools">
+                <button type="button" class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip"
+                        title="Collapse">
+                  <i class="fa fa-minus"></i></button>
+                <button type="button" class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip"
+                        title="Remove">
+                  <i class="fa fa-times"></i></button>
+              </div>
+              <!-- /. tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body pad">
+              <form>
+                    <textarea id="editor1" name="editor1" rows="10" cols="80">
+                                            This is my textarea to be replaced with CKEditor.
+                    </textarea>
+              </form>
+            </div>
+          </div>
+          <!-- /.box -->
+
+        </div>
+        <!-- /.col-->
 
       </div>
       <!-- /.row -->

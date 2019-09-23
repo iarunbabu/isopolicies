@@ -223,54 +223,40 @@
       <h4 class="box-title">Members</h4>
        <div class="row">
        	<div class="box box-primary">
-            <div class="box-header with-border">
-            </div>
-            <!-- /.box-header -->
-            <!-- form start -->
+            <div class="with-border">
               <div class="box-body">
-              	
-              <div class="card">
+                <!-- Add Loop here -->
+              	<div class="card" style="width: 18rem;float: left">
               		<div class="user-block ">
                     <img class="img-circle img-bordered-sm" src="{{ asset('/img/user2-160x160.jpg') }}" alt="User Image">
                         <span class="username ">
-                          <a href="#">sdddddddd</a>
+                          <a href="#">Alex</a>
                         </span>
                     <span class="description">Options</span>
-                  </div>
-              </div>
+                                        <button type="button" style="width: 40%;"class="btn btn-block btn-danger btn-sm margin">Leave</button>
 
+                  </div>
+                                    </div>
 
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="{{ asset('/img/user2-160x160.jpg') }}" alt="User Image">
-                        <span class="username">
-                          <a href="#">Name</a>
-                        </span>
-                    <span class="description">Options</span>
-                  </div>
-                  <div class="user-block">
-                    <img class="img-circle img-bordered-sm" src="{{ asset('/img/user2-160x160.jpg') }}" alt="User Image">
-                        <span class="username">
-                          <a href="#">Name</a>
-                        </span>
-                    <span class="description">Options</span>
-                  </div>
+                
+              
 
 </div>
-             
-              <!-- /.box-body -->
+</div>
+             <div class="row">
+         <button type="button" class="btn  btn-success btn-xs  pull-right">Add Approval member</button>
+               
+             </div>
           </div>
        </div>
 
       <h4 class="box-title"> Activities requiring approval</h4>
 <div class="row">
        	<div class="box box-primary">
-            <div class="box-header with-border">
+            <div class=" with-border box-body">
+              <h5>There are currently no Activities requiring approval</h5>
             </div>
-            <!-- /.box-header -->
-            <!-- form start -->
-              <div class="box-body">
-              </div>
-              <!-- /.box-body -->
+
           </div>
        </div>
 
@@ -280,14 +266,12 @@
       <h4 class="box-title">Updates</h4>
        <div class="row">
        	<div class="box box-primary">
-            <div class="box-header with-border">
+            <div class="box-body with-border">
+              No Update to display
             </div>
-            <!-- /.box-header -->
-            <!-- form start -->
-              <div class="box-body">
-              </div>
-              <!-- /.box-body -->
-          </div>
+            </div>
+            
+        
        </div>
 
 

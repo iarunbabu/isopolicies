@@ -19,6 +19,9 @@ Route::get('/headlines', function () {
 Route::get('/approved', function () {
     return view('approved.index');
 });
+Route::get('/tools', function () {
+    return view('tools.index');
+});
 Route::get('/structure', function () {
     return view('structure');
 });

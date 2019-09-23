@@ -214,10 +214,10 @@
           <!-- Custom Tabs -->
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class=""><a style="background-color: #3c8dbc;color: white;"  href="#tab_1" data-toggle="tab">Headlines</a></li>
-              <li><a style="background-color: #3c8dbc;color: white;" href="#tab_2" data-toggle="tab">Structure</a></li>
-              <li><a style="background-color: #3c8dbc;color: white;" href="#tab_3" data-toggle="tab">Approved</a></li>
-              <li><a  href="#tab_4" data-toggle="tab">Tools</a></li>
+              <li class=""><a style="background-color: #3c8dbc;color: white;"  href="{{url('/headlines')}}">Headlines</a></li>
+              <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/structure')}}" >Structure</a></li>
+              <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/approved')}}" >Approved</a></li>
+              <li><a  href="{{url('/tools')}}" >Tools</a></li>
               <li></li>
               <li></li>
               <li></li>
@@ -235,68 +235,166 @@
                 <!-- START PROGRESS BARS -->
 
 
-      <h2 class="page-header"><i class="fa fa-book"></i> Progress Bars</h2>
-        <div class="col-md-12">
-          <button type="btton" class="btn pull-right btn-success">View Statemet of Applicability</button>
-        </div>
+            <div class="row">
+         <button type="button" class="btn  btn-success btn-xs  pull-right">New tool usage</button>
+               
+             </div>
       <div class="row">
         <!-- /.col (left) -->
-                <div class="col-md-4">
-          <div class="box box-solid">
-            
+                <div class="col-md-12">
+                                <h3 class="box-title">Built in tools</h3>
+
+          <div class="box">
+          
             <!-- /.box-header -->
             <div class="box-body">
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                Background information
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                ISO Requiremets
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                A5.Information Secrity Policies
-              </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
-                A6.Organization of Information Secrity
-              </div>
+              <table class="table table-bordered">
+                <tr>
+                  <th>Tools</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Regarding</th>
+                  <th>Last activity</th>
+                </tr>
+                <tr>
+                  <td>1.</td>
+                  <td>Update software</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-red">55%</span></td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Clean database</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-yellow">70%</span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Cron job running</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-light-blue">30%</span></td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Fix and squish bugs</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-green">90%</span></td>
+                </tr>
+              </table>
             </div>
             <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
           </div>
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
-        <div class="col-md-4">
-          <div class="box box-solid">
-            <!-- /.box-header -->
-            <div class="box-body">
-              <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                  <span class="sr-only">40% Complete (success)</span>
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                  <span class="sr-only">20% Complete</span>
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                  <span class="sr-only">60% Complete (warning)</span>
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                  <span class="sr-only">80% Complete</span>
-                </div>
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
+       
         <!-- /.col (right) -->
       </div>
-      <!-- /.row -->
 
+
+
+
+  <div class="row">
+        <!-- /.col (left) -->
+                <div class="col-md-12">
+                                <h3 class="box-title">Template tools</h3>
+
+          <div class="box">
+          
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tr>
+                  <th>Tools</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Regarding</th>
+                  <th>Last activity</th>
+                </tr>
+                <tr>
+                  <td>1.</td>
+                  <td>Update software</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-red">55%</span></td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Clean database</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-yellow">70%</span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Cron job running</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-light-blue">30%</span></td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Fix and squish bugs</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-green">90%</span></td>
+                </tr>
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col (right) -->
+       
+        <!-- /.col (right) -->
+      </div>
       <!-- /.row -->
       <!-- END PROGRESS BARS -->
               </div>

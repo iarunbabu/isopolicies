@@ -20,7 +20,7 @@
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-link"></i>Linked work</a></li>
-          <li><a href="#"><i class="fa fa-user"></i>Tears</a></li>
+          <li><a href="#"><i class="fa fa-user"></i>Team</a></li>
           <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
         </ol>
       </section>
@@ -32,14 +32,14 @@
 
       <div class="row">
         <div class="col-md-12">
-          <!-- Custom Tabs -->
-          <div class="nav-tabs-custom">
+          <!-- Custom Tabs nav-tabs-custom-->
+          <div class="">
             <ul class="nav nav-tabs">
               <li class=""><a  href="#tab_1" data-toggle="tab">Headlines</a></li>
               <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/structure')}}" >Structure</a></li>
               <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/approved')}}">Approved</a></li>
               <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/tools')}}">Tools</a></li>
-              <li></li>
+              <li><a style="background-color: #ecf0f5;color: white;" ></a></li>
               <li></li>
               <li></li>
 
@@ -51,25 +51,107 @@
 
               <li class="pull-right"><a href="#" class="text-muted"><i class="fa fa-gear"></i></a></li>
             </ul>
-            <div class="tab-content">
-              <div class="tab-pane active" id="tab_1">
-                <!-- START PROGRESS BARS -->
-
-
-      @include('tabs.headline-tab')
-              </div>
-              <!-- /.tab-pane -->
-             
-            </div>
-            <!-- /.tab-content -->
+            
           </div>
           <!-- nav-tabs-custom -->
+          <div class="box-header with-border">
+      <h4 class=""></i> Purpose and Goals</h4>
+</div>
+
+<div class="col-md-12">
+          <!-- general form elements -->
+          <div class="box ">
+            
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form">
+              <div class="col-md-12 margin">
+          <button type="btton" class="btn pull-right btn-xs btn-success">View Statemet of Applicability</button>
+        </div>
+                         <div class="row">
+
+        <!-- /.col (left) -->
+                <div class="col-md-4">
+          <div class="">
+            
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="progress" style="background-color: white;color: cornflowerblue;">
+                Background information
+              </div>
+              <div class="progress" style="background-color: white;color: cornflowerblue;">
+                ISO Requiremets
+              </div>
+              <div class="progress" style="background-color: white;color: cornflowerblue;">
+                A5.Information Secrity Policies
+              </div>
+              <div class="progress" style="background-color: white;color: cornflowerblue;">
+                A6.Organization of Information Secrity
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col (right) -->
+        <div class="col-md-4">
+          <div class="">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                  <span class="sr-only">40% Complete (success)</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                  <span class="sr-only">20% Complete</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  <span class="sr-only">60% Complete (warning)</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  <span class="sr-only">80% Complete</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col (right) -->
+        <div class="col-md-4">
+          <div class="">
+            
+            <!-- /.box-header -->
+            <div class="box-body">
+              
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+              
+            </form>
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+
           <div class="box-header with-border">
       <h4 class=""></i> Activity Satus</h4>
 </div>
 <div class="col-md-12">
           <!-- general form elements -->
-          <div class="box box-primary">
+          <div class="box">
             <div class="box-header with-border">
               <h3 class="box-title">Quick Example</h3>
             </div>

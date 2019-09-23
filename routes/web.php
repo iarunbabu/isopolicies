@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/approved', function () {
     return view('approved.index');
 });
+Route::get('/structure', function () {
+    return view('structure');
+});
+

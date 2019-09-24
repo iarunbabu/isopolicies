@@ -12,16 +12,21 @@
   <div class="content-wrapper">
     <div class="container">
       <!-- Content Header (Page header) -->
+      <section class="content-header margin">
+        <ol class="breadcrumb col-md-12">
+          <li><a href="#"><i class="fa fa-link"></i>Linked work</a></li>
+          <li><a href="#"><i class="fa fa-user"></i>Team</a></li>
+          <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+        </ol>
+      </section>
 
       <section class="content-header">
         <h1>
 <i class="fa fa-book"></i> Policies and Cotrols
           
         </h1>
-        <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-link"></i>Linked work</a></li>
-          <li><a href="#"><i class="fa fa-user"></i>Team</a></li>
-          <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+        <ol class="breadcrumb" style="font-size: 14px;">
+          <a href="#"> <i class="fa fa-link"></i> Linked work </a> <a href="#"> <i class="fa fa-user"></i> Team </a> <a href="#"> <i class="fa fa-cog"></i> Settings </a> <a href="#"> <i class="fa fa-cog"></i> Tour </a> 
         </ol>
       </section>
 
@@ -99,6 +104,7 @@
 <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/ckeditor.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/bootstrap3-wysihtml5.all.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
 
 <script>
   $(function () {
@@ -109,5 +115,6 @@
     $('.textarea').wysihtml5()
   })
 </script>
+
 </body>
 </html>

@@ -4,58 +4,57 @@
         <div class="col-md-12">
           <button type="btton" class="btn pull-right btn-xs btn-success">View Statemet of Applicability</button>
         </div>
-      <div class="row" >
+      <div class="row " >
+        <div class="col-md-12">
         <!-- /.col (left) -->
-                <div class="col-md-4">
-          <div class="" style="background-color: #e3ebf6;">
+                <div class="col-md-8">
             
             <!-- /.box-header -->
             <div class="box-body" style="background-color: #e3ebf6;">
-              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
+              <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
                 Background information
               </div>
-              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
-                ISO Requiremets
-              </div>
-              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
-                A5.Information Secrity Policies
-              </div>
-              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
-                A6.Organization of Information Secrity
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col (right) -->
-        <div class="col-md-4">
-          <div class="">
-            <!-- /.box-header -->
-            <div class="box-body" style="background-color: #e3ebf6;">
-              <div class="progress">
+                <div class="progress ">
                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                   <span class="sr-only">40% Complete (success)</span>
                 </div>
+              </div>
+              <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
+                ISO Requiremets
               </div>
               <div class="progress">
                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
                   <span class="sr-only">20% Complete</span>
                 </div>
               </div>
+              <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
+                A5.Information Secrity Policies
+              </div>
               <div class="progress">
                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                   <span class="sr-only">60% Complete (warning)</span>
                 </div>
               </div>
-              <div class="progress">
+              <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
+                A6.Organization of Information Secrity
+              </div>
+               <div class="progress">
                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                   <span class="sr-only">80% Complete</span>
                 </div>
               </div>
             </div>
             <!-- /.box-body -->
-          </div>
+          <!-- /.box -->
+        <!-- </div> -->
+        <!-- /.col (right) -->
+        <!-- <div class="col-md-4"> -->
+            <!-- /.box-header -->
+
+              
+              
+             
+            <!-- /.box-body -->
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
@@ -77,6 +76,7 @@
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
+        </div>
         </div>
 
       </div>
@@ -158,10 +158,11 @@
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
-        <div class="box-header with-border">
+        
+        <div class="col-md-8">
+          <div class="box-header with-border">
               <h3 class="box-title">Notes</h3>
             </div>
-        <div class="col-md-8">
           <!-- general form elements -->
           <div class="box box-warning">
             <div class="box-header with-border">
@@ -184,6 +185,9 @@
 
         
         <div class="col-md-4">
+          <div class="box-header with-border">
+              <h3 class="box-title">Perfomance</h3>
+            </div>
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">

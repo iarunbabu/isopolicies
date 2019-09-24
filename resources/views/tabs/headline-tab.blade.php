@@ -1,26 +1,26 @@
 
 
-      <h4 class=""><i class="fa fa-book"></i> Prpose and goals</h4>
+      <h4 class=""><i class="fa fa-book"></i> Purpose and goals</h4>
         <div class="col-md-12">
           <button type="btton" class="btn pull-right btn-xs btn-success">View Statemet of Applicability</button>
         </div>
-      <div class="row">
+      <div class="row" >
         <!-- /.col (left) -->
                 <div class="col-md-4">
-          <div class="">
+          <div class="" style="background-color: #e3ebf6;">
             
             <!-- /.box-header -->
-            <div class="box-body">
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
+            <div class="box-body" style="background-color: #e3ebf6;">
+              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
                 Background information
               </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
+              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
                 ISO Requiremets
               </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
+              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
                 A5.Information Secrity Policies
               </div>
-              <div class="progress" style="background-color: white;color: cornflowerblue;">
+              <div class="progress" style="background-color: #e3ebf6;color: cornflowerblue;">
                 A6.Organization of Information Secrity
               </div>
             </div>
@@ -32,7 +32,7 @@
         <div class="col-md-4">
           <div class="">
             <!-- /.box-header -->
-            <div class="box-body">
+            <div class="box-body" style="background-color: #e3ebf6;">
               <div class="progress">
                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                   <span class="sr-only">40% Complete (success)</span>
@@ -59,11 +59,19 @@
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-color: #e3ebf6;height: 180px;">
           <div class="">
             
             <!-- /.box-header -->
-            <div class="box-body">
+            <div class="box-body" style="background-color: #e3ebf6;">
+              <div class="" style="background-color: #e3ebf6;">
+<!-- info-box-content -->
+            <div class="">
+              <span class="info-box-text text-center text-primary" style="font-size: 31px;">Progress</span>
+              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
               
             </div>
             <!-- /.box-body -->
@@ -86,9 +94,9 @@
           <div class="row">
             
             <!-- /.box-header -->
-            <div class="box-body">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
+            <div class="box-body" >
+              <div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
+          <div class="info-box" style="background-color: #e3ebf6;">
 <!-- info-box-content -->
             <div class="">
               <span class="info-box-text text-center text-primary">Completed</span>
@@ -98,8 +106,8 @@
           </div>
           <!-- /.info-box -->
         </div>
-              <div class="col-md-2 col-sm-6 col-xs-12">
-          <div class="info-box">
+              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
+          <div class="info-box" style="background-color: #e3ebf6;">
 <!-- info-box-content -->
             <div class="">
               <span class="info-box-text text-center text-primary">Awaiting approval</span>
@@ -109,8 +117,8 @@
           </div>
           <!-- /.info-box -->
         </div>
-              <div class="col-md-2 col-sm-6 col-xs-12">
-          <div class="info-box">
+              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
+          <div class="info-box" style="background-color: #e3ebf6;">
 <!-- info-box-content -->
             <div class="">
               <span class="info-box-text text-center text-primary">Open</span>
@@ -120,8 +128,8 @@
           </div>
           <!-- /.info-box -->
         </div>
-              <div class="col-md-2 col-sm-6 col-xs-12">
-          <div class="info-box">
+              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
+          <div class="info-box" style="background-color: #e3ebf6;">
 <!-- info-box-content -->
             <div class="">
               <span class="info-box-text text-center text-primary">Overdue</span>
@@ -131,8 +139,8 @@
           </div>
           <!-- /.info-box -->
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
+        <div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
+          <div class="info-box" style="background-color: #e3ebf6;">
 
             <div class="">
               <span class="info-box-text text-center text-primary">Unassigned</span>
@@ -150,51 +158,67 @@
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
+        <div class="box-header with-border">
+              <h3 class="box-title">Notes</h3>
+            </div>
         <div class="col-md-8">
-          <div class="box box-info">
-            <div class="box-header">
-              <h3 class="box-title">Notes
-                <!-- <small></small> -->
-              </h3>
-              <!-- tools box -->
-              <div class="pull-right box-tools">
-                <button type="button" class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip"
-                        title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-                <button type="button" class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip"
-                        title="Remove">
-                  <i class="fa fa-times"></i></button>
-              </div>
-              <!-- /. tools -->
+          <!-- general form elements -->
+          <div class="box box-warning">
+            <div class="box-header with-border">
+              <!-- <h3 class="box-title">Quick Example</h3> -->
             </div>
             <!-- /.box-header -->
-            <div class="box-body pad">
-              <form>
-                    <textarea id="editor1" name="editor1" rows="10" cols="80">
+            <!-- form start -->
+            <form role="form">
+                         <textarea id="editor1" name="editor1" rows="10" cols="80">
                                             This is my textarea to be replaced with CKEditor.
                     </textarea>
-              </form>
-            </div>
+                    <div class="box-footer">
+                <button type="submit" class="btn btn-success pull-right">Create</button>
+              </div>
+            </form>
           </div>
           <!-- /.box -->
 
         </div>
+
+        
+        <div class="col-md-4">
+          <!-- general form elements -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Quick Example</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form">
+                         <div class="box-body pad">
+              <div class="chart">
+                <canvas id="barChart" style="height:230px"></canvas>
+              </div>
+            </div>
+
+              <div class="box-footer">
+                <button type="submit" class="btn btn-success pull-right">Create</button>
+              </div>
+              <!-- /.box-footer -->
+            </form>
+          </div>
+          <!-- /.box -->
+
+        </div>
+        <!-- /.col -->
         <!-- /.col-->
-        <div class="col-md-8">
+
+        <div class="col-md-12">
+          <div class="box-header with-border">
+              <h3 class="box-title">Updates</h3>
+            </div>
           <div class="box box-info">
             <div class="box-header">
-              <h3 class="box-title">Notes
-                <!-- <small></small> -->
-              </h3>
+             
               <!-- tools box -->
-              <div class="pull-right box-tools">
-                <button type="button" class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip"
-                        title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-                <button type="button" class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip"
-                        title="Remove">
-                  <i class="fa fa-times"></i></button>
-              </div>
+              
               <!-- /. tools -->
             </div>
             <!-- /.box-header -->
@@ -224,10 +248,7 @@
                   jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
                   quora plaxo ideeli hulu weebly balihoo...
                 </div>
-                <div class="timeline-footer">
-                  <a class="btn btn-primary btn-xs">Read more</a>
-                  <a class="btn btn-danger btn-xs">Delete</a>
-                </div>
+                
               </div>
             </li>
             <!-- END timeline item -->
@@ -256,9 +277,7 @@
                   Switzerland is small and neutral!
                   We are more like Germany, ambitious and misunderstood!
                 </div>
-                <div class="timeline-footer">
-                  <a class="btn btn-warning btn-flat btn-xs">View comment</a>
-                </div>
+                
               </div>
             </li>
             <!-- END timeline item -->
@@ -282,6 +301,7 @@
 
         </div>
         <!-- /.col-->
+
 
 
       </div>

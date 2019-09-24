@@ -55,7 +55,7 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_2">
                 
-      @include('tabs.structure-tab')
+                @include('tabs.structure-tab')
       
               </div>
               <!-- /.tab-pane -->

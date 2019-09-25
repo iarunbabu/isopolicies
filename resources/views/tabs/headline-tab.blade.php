@@ -1,11 +1,12 @@
 
 
       <h4 class=""><i class="fa fa-book"></i> Purpose and goals</h4>
-        <div class="col-md-12">
-          <button type="btton" class="btn pull-right btn-xs btn-success">View Statemet of Applicability</button>
-        </div>
+        
       <div class="row " >
         <div class="col-md-12">
+          <div class="col-md-12">
+          <button type="btton" class="btn pull-right btn-xs btn-success margin">View Statemet of Applicability</button>
+        </div>
         <!-- /.col (left) -->
                 <div class="col-md-8">
             
@@ -58,7 +59,7 @@
           <!-- /.box -->
         </div>
         <!-- /.col (right) -->
-        <div class="col-md-4" style="background-color: #e3ebf6;height: 180px;">
+        <div class="" style="background-color: #e3ebf6;height: 180px;">
           <div class="">
             
             <!-- /.box-header -->
@@ -66,7 +67,7 @@
               <div class="" style="background-color: #e3ebf6;">
 <!-- info-box-content -->
             <div class="">
-              <span class="info-box-text text-center text-primary" style="font-size: 31px;">Progress</span>
+              <span class="info-box-number text-center text-primary" style="font-size: 31px;">Progress</span>
               <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
             </div>
             <!-- /.info-box-content -->
@@ -81,6 +82,78 @@
 
       </div>
       <!-- /.row -->
+      <div class="box-header with-border">
+      <h4 class=""></i> Activity Satus</h4>
+</div>
+
+      <div class="row " >
+        <div class="col-md-12">
+            <div class="box-body" style="background-color: #e3ebf6;">
+              <div class="card text-center col-md-2 margin">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <p class="card-text text-primary">COMPLETED</p>
+     <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+<div class="card text-center">
+  
+</div>
+<div class="card text-center col-md-2 margin">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <p class="card-text text-primary">AWAITING APPROVAL</p>
+     <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+<div class="card text-center">
+  
+</div>
+<div class="card text-center col-md-2 margin">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <p class="card-text text-primary">OPEN</p>
+     <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+<div class="card text-center">
+  
+</div>
+<div class="card text-center col-md-2 margin">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <p class="card-text text-primary">OVERDUE</p>
+     <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+<div class="card text-center">
+  
+</div>
+<div class="card text-center col-md-2 margin">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <p class="card-text text-primary">UNASSIGNED</p>
+     <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
 
       <!-- /.row -->
       <!-- END PROGRESS BARS -->

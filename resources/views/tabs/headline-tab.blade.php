@@ -158,9 +158,7 @@
       <!-- /.row -->
       <!-- END PROGRESS BARS -->
 
-<div class="box-header with-border">
-      <h4 class=""></i> Activsssity Satus</h4>
-</div>
+
 
       <div class="row">
         <!-- /.col (left) -->

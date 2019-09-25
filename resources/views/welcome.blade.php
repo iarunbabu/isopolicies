@@ -9,14 +9,14 @@
 
   @include('layouts.header')
   <!-- Full Width Column -->
-  <div class="content-wrapper">
+  <div class="content-wrapper " style="background:#ffffff;">
     <div class="container">
       <!-- Content Header (Page header) -->
       <section class="content-header margin">
         <ol class="breadcrumb col-md-12">
-          <li><a href="#"><i class="fa fa-link"></i>Linked work</a></li>
-          <li><a href="#"><i class="fa fa-user"></i>Team</a></li>
-          <li><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
+          <li><a class="text-dark" href="#"><i class="fa fa-link"></i>Linked work</a></li>
+          <li><a class="text-dark" href="#"><i class="fa fa-user"></i>Team</a></li>
+          <li><a class="text-dark" href="#"><i class="fa fa-cog"></i>Settings</a></li>
         </ol>
       </section>
 
@@ -107,7 +107,7 @@
 <script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
 
 <script>
-  $(function () {
+   $(function () {
     // Replace the <textarea id="editor1"> with a CKEditor
     // instance, using default configuration.
     CKEDITOR.replace('editor1')

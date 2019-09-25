@@ -159,78 +159,12 @@
       <!-- END PROGRESS BARS -->
 
 <div class="box-header with-border">
-      <h4 class=""></i> Activity Satus</h4>
+      <h4 class=""></i> Activsssity Satus</h4>
 </div>
+
       <div class="row">
         <!-- /.col (left) -->
-                <div class="col-md-12">
-          <div class="row">
-            
-            <!-- /.box-header -->
-            <div class="box-body" >
-              <div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
-          <div class="info-box" style="background-color: #e3ebf6;">
-<!-- info-box-content -->
-            <div class="">
-              <span class="info-box-text text-center text-primary">Completed</span>
-              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
-          <div class="info-box" style="background-color: #e3ebf6;">
-<!-- info-box-content -->
-            <div class="">
-              <span class="info-box-text text-center text-primary">Awaiting approval</span>
-              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
-          <div class="info-box" style="background-color: #e3ebf6;">
-<!-- info-box-content -->
-            <div class="">
-              <span class="info-box-text text-center text-primary">Open</span>
-              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-              <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
-          <div class="info-box" style="background-color: #e3ebf6;">
-<!-- info-box-content -->
-            <div class="">
-              <span class="info-box-text text-center text-primary">Overdue</span>
-              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #e3ebf6;">
-          <div class="info-box" style="background-color: #e3ebf6;">
-
-            <div class="">
-              <span class="info-box-text text-center text-primary">Unassigned</span>
-              <span class="info-box-number text-center" style="font-size: 25px;">90<small>%</small></span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-              
-            </div>
-            <!-- /.box-body -->
-            
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col (right) -->
+               
         
         <div class="col-md-8">
           <div class="box-header with-border">

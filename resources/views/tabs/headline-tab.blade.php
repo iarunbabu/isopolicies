@@ -5,7 +5,7 @@
 
           <div class="col-md-8">
           <div class="info-box">
-            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+            <span class="info-box-icon" style="background-color: white;"><i class="ion ion-ios-gear-outline"></i></span>
 
             <div class="info-box-content">
               <span class="">

@@ -14,9 +14,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header margin">
         <ol class="breadcrumb col-md-12">
-          <li><a class="text-dark" href="#"><i class="fa fa-link"></i>Linked work</a></li>
-          <li><a class="text-dark" href="#"><i class="fa fa-user"></i>Team</a></li>
-          <li><a class="text-dark" href="#"><i class="fa fa-cog"></i>Settings</a></li>
+          <li><a class="text-dark" href="#">Projects</a></li>
+          <li><a class="text-dark" href="#">Policies and Controls</a></li>
         </ol>
       </section>
 

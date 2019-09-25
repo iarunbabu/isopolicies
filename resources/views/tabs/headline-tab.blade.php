@@ -1,6 +1,37 @@
 
 
       <h4 class=""><i class="fa fa-book"></i> Purpose and goals</h4>
+      <div class="row">
+
+          <div class="col-md-8">
+          <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+            <div class="info-box-content">
+              <span class="">
+                <h3>Purpose and goals</h3></span>
+              <span class=""><small>An enviornment to implement and maage all the reqirements,controls and policies relating to ISO</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+
+        <div class="col-md-4">
+          <div class="info-box">
+
+            <div class="info-box-content">
+              
+              <span class="pull-left">
+                <small>An enviornment to </small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+          
+         
+      </div>
         
       <div class="row " >
         <div class="col-md-12">

@@ -23,6 +23,6 @@ Route::get('/tools', function () {
     return view('tools.index');
 });
 Route::get('/structure', function () {
-    return view('structure');
+    return view('structure.index');
 });
 

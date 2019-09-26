@@ -22,6 +22,8 @@
 
               
               <span class="">
+                <span class="margin"> </span>
+                  
                 <div class="row row col-md-12">
                 <span class="pull-left"> <small>Start: </small></span>
                 <span class="pull-right"><small>05/02/2019</small></span>

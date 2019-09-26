@@ -11,7 +11,7 @@
            @include('layout.header')
     </header>
     <!-- Full Width Column -->
-    <div class="content-wrapper">
+    <div class="content-wrapper" style="background:white;">
         <div class="container">
             <!-- Content Header (Page header) -->
        @yield('content')

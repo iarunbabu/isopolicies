@@ -26,3 +26,7 @@ Route::get('/structure', function () {
     return view('structure.index');
 });
 
+Route::get('/structure/view', function () {
+    return view('structure.view');
+});
+

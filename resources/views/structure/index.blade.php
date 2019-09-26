@@ -48,7 +48,7 @@
             <div class="tab-content">
               <div class="tab-pane active" id="tab_1">
                 <!-- START PROGRESS BARS -->
-      @include('tabs.headline-tab')
+      @include('tabs.structure-tab')
               </div>
               <!-- /.tab-pane -->
             </div>

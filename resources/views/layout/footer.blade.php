@@ -29,3 +29,12 @@
 
                         <!-- AdminLTE for demo purposes -->
                         <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+                        
+                        <!-- AdminLTE for ckeditor -->
+                        <script type="text/javascript" src="{{ asset('js/ckeditor.js') }}"></script>
+
+                        <!-- wysihtml5 -->
+                        <script type="text/javascript" src="{{ asset('js/bootstrap3-wysihtml5.all.min.js') }}"></script>
+
+                        <!--  Chart -->
+                        <script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>

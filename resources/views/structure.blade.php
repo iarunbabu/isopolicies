@@ -15,7 +15,7 @@
 
       <section class="content-header">
         <h1>
-<i class="fa fa-book"></i> Policies and Cotrols
+<i class="fa fa-book"></i> Policies and Cotrolsw
           
         </h1>
         <ol class="breadcrumb">

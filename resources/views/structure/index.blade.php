@@ -70,19 +70,114 @@
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">Background information</a>
+                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>Background information</a>
                   </h4>
                 </div>
                 <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
                   <ul class="">
-                    <li class="panel-collapse collapse in">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2">Access to this environment and team member controls</a>
+                    <li class="panel-collapse collapse in margin">
+                      <i class="fa fa-caret-down"></i>
+                      <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
+                      Access to this environment and team member controls</a>
                     </li>
-                    <ul id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                      <li>1</li>
-                      <li>2</li>
+                    <ul >
+                      <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                        <i class="fa fa-caret-down"></i>
+                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup21" aria-expanded="false" aria-controls="collapseListGroup2">
+                          <span class="step">A</span>
+                          Making the template document work for yor organization and its stakeholders
+                        </a>
+                        
+                      </li>
+                      <div id="collapseListGroup21" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+
+                          <form class="form-horizontal">
+                            <div class="box-body">
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-8">
+                                  <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
+                                <div class="col-sm-2">
+                                  <select class="form-control">
+                                    <option>Unassigned</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker2" >
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker2" >
+                                </div>
+                              </div>
+
+
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  
+                  
+                </div>
+
+                <div class="form-group">
+                <label>Date:</label>
+
+                <div class="input-group date">
+                  
+                  <input type="text" class="form-control pull-right" id="datepicker">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                </div>
+                <!-- /.input group -->
+              </div>
+              <!-- /.form group -->
+
+                
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-info pull-right">Sign in</button>
+              </div>
+              <!-- /.box-footer -->
+            </form>
+                            
+                            
+                          
+                        </div>
+                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                        <i class="fa fa-caret-down"></i>
+                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
+                          <span class="step">A</span>
+                          Making the template document work for yor organization and its stakeholders
+                        </a>
+                        
+                        
+                      </li>
+                      
                     </ul>
-                    <li class="panel-collapse collapse in">
+                    <li class="panel-collapse collapse in margin">
                       <a class="collapsed" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">Normative References with Terms and Conditions</a>
                     </li>
                     <ul id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
@@ -98,16 +193,18 @@
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4">ISO Requirements</a>
+                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4"><span class="step">P</span>ISO Requirements</a>
                   </h4>
                 </div>
                 <div id="collapseListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
                   <ul class="">
                     <li class="panel-collapse collapse in">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup5" aria-expanded="false" aria-controls="collapseListGroup5">Understanding the organization and its context</a>
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup5" aria-expanded="false" aria-controls="collapseListGroup5">
+                        <span class="step">P</span>
+                      Understanding the organization and its context</a>
                     </li>
-                    <ul id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                      <li>
+                    <ul >
+                      <li id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                         <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues</a>
                           <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
 
@@ -123,7 +220,13 @@
                               <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
                                 <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  <select class="form-control">
+                                    <option>Unassigned</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
                                 </div>
                                 <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
                                 <div class="col-sm-2">

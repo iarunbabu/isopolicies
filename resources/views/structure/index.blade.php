@@ -82,8 +82,6 @@
                       <li>1</li>
                       <li>2</li>
                     </ul>
-                    
-                    
                     <li class="panel-collapse collapse in">
                       <a class="collapsed" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">Normative References with Terms and Conditions</a>
                     </li>
@@ -111,51 +109,38 @@
                     <ul id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                       <li>
                         <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues</a>
-                        <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
-                          <!-- <div class="form-group">
-                            <label class="control-label">Name</label>
-                            <textarea class="form-control" rows="4"></textarea>
-                            
-                          </div> -->
+                          <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+
                           <form class="form-horizontal">
-              <div class="box-body">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                            <div class="box-body">
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-8">
+                                  <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                              </div>
 
-                  <div class="col-sm-8">
-                    <!-- <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> -->
-                    <textarea class="form-control" rows="4"></textarea>
-                  </div>
-                </div>
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
 
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
-
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
-
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  
-                </div>
-
-                <div class="form-group">
-
-                  <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
-
-                  <div class="col-sm-2">
-                    <input type="text" class="form-control" id="datepicker2" >
-                  </div>
-                  <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
-
-                  <div class="col-sm-2">
-                    <input type="text" class="form-control" id="datepicker2" >
-                  </div>
-                  
-                </div>
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker2" >
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker2" >
+                                </div>
+                              </div>
 
 
                 <div class="form-group">

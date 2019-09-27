@@ -65,10 +65,11 @@
                   
                 </div>
             </div>
+            <div class="box">
             <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
-                  <h4 class="panel-title"><i class="fa fa-angle-right"></i>
+                  <h4 class="panel-title"><i class="fa fa-caret-down"></i>
                   <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">Background information</a>
                   </h4>
                 </div>
@@ -77,36 +78,123 @@
                     <li class="panel-collapse collapse in">
                       <a class="collapsed" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2">Access to this environment and team member controls</a>
                     </li>
-                    <ul class="panel-collapse collapse in" id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                      <li >Access to this environment and team member controls1</li>
-                      <li >Normative References with Terms and Conditions1</li>
+                    <ul id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                      <li>1</li>
+                      <li>2</li>
                     </ul>
-                    <li class="panel-collapse collapse in">Normative References with Terms and Conditions</li>
+                    
+                    
+                    <li class="panel-collapse collapse in">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">Normative References with Terms and Conditions</a>
+                    </li>
+                    <ul id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
+                      <li>3</li>
+                      <li>4</li>
+                    </ul>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="box">
-        <div class="box-header with-border">
-          <h3 class="box-title">Title</h3>
 
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button>
+            <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
+                  <h4 class="panel-title"><i class="fa fa-caret-down"></i>
+                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4">ISO Requirements</a>
+                  </h4>
+                </div>
+                <div id="collapseListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                  <ul class="">
+                    <li class="panel-collapse collapse in">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup5" aria-expanded="false" aria-controls="collapseListGroup5">Understanding the organization and its context</a>
+                    </li>
+                    <ul id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                      <li>
+                        <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues</a>
+                        <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                          <!-- <div class="form-group">
+                            <label class="control-label">Name</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                            
+                          </div> -->
+                          <form class="form-horizontal">
+              <div class="box-body">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+
+                  <div class="col-sm-8">
+                    <!-- <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> -->
+                    <textarea class="form-control" rows="4"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  
+                </div>
+
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  
+                </div>
+
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <div class="col-sm-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  
+                  
+                </div>
+
+                
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-info pull-right">Sign in</button>
+              </div>
+              <!-- /.box-footer -->
+            </form>
+                            
+                            
+                          
+                        </div>
+                      </li>
+                    </ul>
+                    
+                    
+                    <li class="panel-collapse collapse in">
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup6" aria-expanded="false" aria-controls="collapseListGroup6">Normative References with Terms and Conditions</a>
+                    </li>
+                    <ul id="collapseListGroup6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
+                      <li>3</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="box-body">
-          Start creating your amazing application!
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
-      </div>
-      <!-- /.box -->
+            
           </div>
         </div>
       </div>

@@ -16,6 +16,9 @@
     <!--<link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">-->
     <link rel="stylesheet" href="{{ asset('/css/ionicons.min.css') }}">
 
+    <!--  bootstrap datepicker -->
+    <link rel="stylesheet" href="{{ asset('/css/bootstrap-datepicker.min.css') }}">
+
     <!-- Theme style -->
     <!--<link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">-->
     <link rel="stylesheet" href="{{ asset('/css/AdminLTE.min.css') }}">

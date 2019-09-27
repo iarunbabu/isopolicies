@@ -17,6 +17,9 @@
 
                         <!-- Bootstrap 3.3.7 -->
                         <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+                        
+                        <!-- bootstrap datepicker -->
+                        <script type="text/javascript" src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
 
                         <!-- SlimScroll -->
                         <script type="text/javascript" src="{{ asset('js/jquery.slimscroll.min.js') }}"></script>
@@ -38,3 +41,15 @@
 
                         <!--  Chart -->
                         <script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
+
+                        <script type="text/javascript">
+                            $(function () {
+                            $('#datepicker1').datepicker({
+                                autoclose: true
+                                    })
+
+                            $('#datepicker2').datepicker({
+                                autoclose: true
+                                    })
+                            })
+                        </script>

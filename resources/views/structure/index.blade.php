@@ -129,26 +129,12 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
 
                   <div class="col-sm-2">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                   </div>
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  
-                </div>
-
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
 
                   <div class="col-sm-2">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
@@ -157,7 +143,23 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                  <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
+
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="datepicker2" >
+                  </div>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
+
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="datepicker2" >
+                  </div>
+                  
+                </div>
+
+
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
 
                   <div class="col-sm-2">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
@@ -165,6 +167,20 @@
                   
                   
                 </div>
+
+                <div class="form-group">
+                <label>Date:</label>
+
+                <div class="input-group date">
+                  
+                  <input type="text" class="form-control pull-right" id="datepicker">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                </div>
+                <!-- /.input group -->
+              </div>
+              <!-- /.form group -->
 
                 
               </div>

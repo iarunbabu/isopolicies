@@ -27,6 +27,11 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ asset('/css/_all-skins.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/bootstrap3-wysihtml5.min.css') }}">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
+
+
+    
 
     <!-- <script src="https://cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script> -->
 

@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="{{ asset('/css/bootstrap3-wysihtml5.min.css') }}">
     <!-- Custom style -->
     <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+
 
 
     

@@ -44,6 +44,10 @@
 
                         <script type="text/javascript">
                             $(function () {
+                            $('.textarea').wysihtml5();
+   
+                            // CKEDITOR.replace('editor1')
+
                             $('#datepicker1').datepicker({
                                 autoclose: true
                                     })
@@ -53,3 +57,4 @@
                                     })
                             })
                         </script>
+        

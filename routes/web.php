@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('headlines.index');
 });
 Route::get('/headlines', function () {
     return view('headlines.index');

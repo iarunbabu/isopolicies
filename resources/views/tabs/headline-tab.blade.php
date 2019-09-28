@@ -63,35 +63,28 @@
               <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
                 Background information
               </div>
-                <div class="progress ">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                  <span class="sr-only">40% Complete (success)</span>
-                </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" style="width: 40%;text-align: right;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
               </div>
               <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
                 ISO Requiremets
               </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                  <span class="sr-only">20% Complete</span>
-                </div>
+                <div class="progress-bar progress-bar-green" role="progressbar" style="width: 20%;text-align: right;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
               </div>
               <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
                 A5.Information Secrity Policies
               </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                  <span class="sr-only">60% Complete (warning)</span>
-                </div>
+                <div class="progress-bar progress-bar-green" role="progressbar" style="width: 60%;text-align: right;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
               </div>
               <div class="progress col-md-6" style="background-color: #e3ebf6;color: cornflowerblue;">
                 A6.Organization of Information Secrity
               </div>
-               <div class="progress">
-                <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                  <span class="sr-only">80% Complete</span>
-                </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-green" role="progressbar" style="width: 25%;text-align: right;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
               </div>
+               
             </div>
             <!-- /.box-body -->
           <!-- /.box -->
@@ -224,9 +217,8 @@
             <!-- /.box-header -->
             <!-- form start -->
             <form role="form">
-                         <textarea id="editor1" name="editor1" rows="10" cols="80">
-                                            This is my textarea to be replaced with CKEditor.
-                    </textarea>
+                        <textarea class="textarea" placeholder="Place some text here"
+                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                     <div class="box-footer">
                 <button type="submit" class="btn btn-success pull-right">Create</button>
               </div>

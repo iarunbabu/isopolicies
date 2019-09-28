@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e3870ef-25a8-47d9-8f6f-14e17bee4f72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/isopolicies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isopolicies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/structure/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/structure/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,16 +217,15 @@
       <updated>1569344982255</updated>
       <workItem from="1569345053000" duration="177000" />
       <workItem from="1569349480688" duration="1000" />
-      <workItem from="1569602040316" duration="6720000" />
+      <workItem from="1569602040316" duration="7364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6898000" />
+    <option name="totallyTimeSpent" value="7542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

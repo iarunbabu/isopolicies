@@ -65,7 +65,7 @@
                   
                 </div>
             </div>
-            <div class="box">
+          <div class="box">
             <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
@@ -128,58 +128,40 @@
                                 </div>
                               </div>
 
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
 
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
+                              <div class="form-group">
+                                <label>Date:</label>
+                                <div class="input-group date">
+                                  <input type="text" class="form-control pull-right" id="datepicker">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
 
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  
-                  
-                </div>
-
-                <div class="form-group">
-                <label>Date:</label>
-
-                <div class="input-group date">
-                  
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-                
-              </div>
-              <!-- /.box-body -->
-              <div class="box-footer">
-                <button type="submit" class="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-info pull-right">Sign in</button>
-              </div>
-              <!-- /.box-footer -->
-            </form>
-                            
-                            
-                          
-                        </div>
-                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                      </div>
+                        
+                      <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                         <i class="fa fa-caret-down"></i>
                         <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
                           <span class="step">A</span>
                           Making the template document work for yor organization and its stakeholders
                         </a>
-                        
-                        
                       </li>
-                      
                     </ul>
+                    
                     <li class="panel-collapse collapse in margin">
                       <a class="collapsed" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">Normative References with Terms and Conditions</a>
                     </li>
+
                     <ul id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
                       <li>3</li>
                       <li>4</li>
@@ -205,8 +187,9 @@
                     </li>
                     <ul >
                       <li id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues</a>
-                          <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues
+                        </a>
+                        <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
 
                           <form class="form-horizontal">
                             <div class="box-body">
@@ -244,52 +227,34 @@
                                   <input type="text" class="form-control" id="datepicker2" >
                                 </div>
                               </div>
+                              
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
 
-
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
-
-                  <div class="col-sm-2">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                  
-                  
-                </div>
-
-                <div class="form-group">
-                <label>Date:</label>
-
-                <div class="input-group date">
-                  
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                </div>
-                <!-- /.input group -->
-              </div>
-              <!-- /.form group -->
-
-                
-              </div>
-              <!-- /.box-body -->
-              <div class="box-footer">
-                <button type="submit" class="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-info pull-right">Sign in</button>
-              </div>
-              <!-- /.box-footer -->
-            </form>
-                            
-                            
-                          
+                              <div class="form-group">
+                                <label>Date:</label>
+                                <div class="input-group date">
+                                  <input type="text" class="form-control pull-right" id="datepicker">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
                         </div>
                       </li>
                     </ul>
                     
-                    
                     <li class="panel-collapse collapse in">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup6" aria-expanded="false" aria-controls="collapseListGroup6">Normative References with Terms and Conditions</a>
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup6" aria-expanded="false" aria-controls="collapseListGroup6">Normative References with Terms and Conditions
+                      </a>
                     </li>
+
                     <ul id="collapseListGroup6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
                       <li>3</li>
                     </ul>
@@ -305,6 +270,4 @@
     </div>
   </div>
 </section>
-      <!-- /.content -->
- 
 @stop

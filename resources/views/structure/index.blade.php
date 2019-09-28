@@ -89,6 +89,13 @@
                         </a>
                         
                       </li>
+                      <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                        <i class="fa fa-caret-down"></i>
+                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
+                          <span class="step">A</span>
+                          Making the template document work for yor organization and its stakeholders1
+                        </a>
+                      </li>
                       <div id="collapseListGroup21" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
 
                           <form class="form-horizontal">
@@ -158,20 +165,13 @@
                       </li>
                     </ul>
                     
-                    <li class="panel-collapse collapse in margin">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">Normative References with Terms and Conditions</a>
-                    </li>
-
-                    <ul id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
-                      <li>3</li>
-                      <li>4</li>
-                    </ul>
+                    
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
+            <!-- <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
@@ -261,7 +261,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
             
           </div>

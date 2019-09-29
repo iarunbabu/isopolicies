@@ -71,7 +71,22 @@
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
                   <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>Background information</a>
+                  <div class="  pull-right" >
+                  View by:
+                    <button type="button" class="btn  btn-xs">Outline</button>
+                      <strong class="pull-right"> 
+                        <a href="#">
+                          <i class="fa fa-fw fa-trash"></i>Delete</a>
+                      </strong>
+                      <strong class="pull-right"> 
+                        <a href="#">
+                          <i class="fa fa-fw fa-edit"></i>Edit</a>
+                        </strong>
+                  </div>
+
                   </h4>
+
+
                 </div>
                 <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
                   <ul class="">
@@ -127,7 +142,7 @@
                               <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
                                 <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker2" >
+                                  <input type="text" class="form-control" id="datepicker1" >
                                 </div>
                                 <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
                                 <div class="col-sm-2">

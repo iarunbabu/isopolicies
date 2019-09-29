@@ -41,6 +41,14 @@
 
                         <!--  Chart -->
                         <script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
+                        <script type="text/javascript">
+  $(function(){
+    $('#datepicker').datepicker({
+      autoclose: true
+    })
+
+  })
+</script>
 
                         <script type="text/javascript">
                             $(function () {

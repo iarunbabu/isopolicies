@@ -72,16 +72,22 @@
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
                   <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>Background information</a>
                   <div class="  pull-right" >
-                  View by:
-                    <button type="button" class="btn  btn-xs">Outline</button>
-                      <strong class="pull-right"> 
-                        <a href="#">
-                          <i class="fa fa-fw fa-trash"></i>Delete</a>
-                      </strong>
-                      <strong class="pull-right"> 
-                        <a href="#">
-                          <i class="fa fa-fw fa-edit"></i>Edit</a>
-                        </strong>
+                    <button type="button" class="btn btn-xs btn-success">Add Activity</button>
+                    <a class="btn  btn-xs" href="#">
+                      <i class="fa fa-fw fa-trash"></i>Delete
+                    </a>
+                    <a class="btn  btn-xs" href="#">
+                      <i class="fa fa-files-o"></i>Duplicate
+                    </a>
+                    <a class="btn  btn-xs" href="#">
+                      <i class="fa fa fa-retweet"></i>Sort
+                    </a>
+                    <a class="btn  btn-xs" href="#">
+                      <i class="fa fa-share"></i>Move
+                    </a>
+                    <a class="btn  btn-xs" href="#">
+                      <i class="fa fa-pencil"></i>Edit
+                    </a>
                   </div>
 
                   </h4>

@@ -11,3 +11,7 @@ span.step {
   text-align: center;
   width: 1.2em; 
 }
+
+.activity-label {
+  text-align: left !important;;
+}

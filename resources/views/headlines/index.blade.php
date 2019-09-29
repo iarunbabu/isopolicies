@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Content Header (Page header) -->
-      <section class="content-header margin">
+      <section class=" margin">
         <ol class="breadcrumb col-md-12">
           <li><a class="text-dark" href="#">Projects</a></li>
           <li><a class="text-dark" href="#">Policies and Controls</a></li>

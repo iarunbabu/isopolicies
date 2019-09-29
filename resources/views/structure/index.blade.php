@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Content Header (Page header) -->
-<section class="content-header margin">
+<section class="margin">
   <ol class="breadcrumb col-md-12">
     <li><a class="text-dark" href="#">Projects</a></li>
     <li><a class="text-dark" href="#">Policies and Controls</a></li>
@@ -97,7 +97,6 @@
                     </li>
                     <ul >
                       <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                        <i class="fa fa-caret-down"></i>
                         <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup21" aria-expanded="false" aria-controls="collapseListGroup2">
                           <span class="step">A</span>
                           Making the template document work for yor organization and its stakeholders

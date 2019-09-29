@@ -1,7 +1,12 @@
 @extends('layout.app')
 
 @section('content')
-
+<section class="margin">
+  <ol class="breadcrumb col-md-12">
+    <li><a class="text-dark" href="#">Projects</a></li>
+    <li><a class="text-dark" href="#">Policies and Controls</a></li>
+  </ol>
+</section>
     <section class="content-header">
         <h1>
             <i class="fa fa-book"></i> Policies and Cotrols
@@ -22,12 +27,12 @@
                     <ul class="nav nav-tabs">
                         <li class=""><a style="background-color: #3c8dbc;color: white;"
                                         href="{{url('/headlines')}}">Headlines</a></li>
-                        <li><a style="background-color: #3c8dbc;color: white;"
+                        <li><a 
                                href="{{url('/structure')}}">Structure</a>
                         </li>
                         <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/approved')}}">Approved</a>
                         </li>
-                        <li><a href="{{url('/tools')}}">Tools</a></li>
+                        <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/tools')}}">Tools</a></li>
                         <li></li>
                         <li></li>
                         <li></li>

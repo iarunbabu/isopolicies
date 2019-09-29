@@ -1,6 +1,12 @@
 @extends('layout.app')
 
 @section('content')
+<section class="margin">
+  <ol class="breadcrumb col-md-12">
+    <li><a class="text-dark" href="#">Projects</a></li>
+    <li><a class="text-dark" href="#">Policies and Controls</a></li>
+  </ol>
+</section>
  <section class="content-header">
                 <h1>
                     <i class="fa fa-book"></i> Policies and Cotrols

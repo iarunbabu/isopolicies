@@ -30,3 +30,8 @@ Route::get('/structure/view', function () {
     return view('structure.view');
 });
 
+Route::get('/structure/view1', function () {
+    return view('structure.view1');
+});
+
+

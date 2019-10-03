@@ -109,15 +109,19 @@
           <div class="box">
             <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default" style="background-color: #e3ebf6;">
+
+@foreach ($policies as $policy)
+
+
+
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
                   <h4 class="panel-title"><i class="fa fa-caret-down"></i>
                   <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>Background information</a>
                   
 
                   </h4>
-
-
                 </div>
+                @foreach($policy->deliverables as $deliverable)
                 <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
                   <ul class="" style="background-color: #e3ebf6;">
                     <li class="panel-collapse collapse in margin">
@@ -145,11 +149,13 @@
                     </li>
                     <ul >
                       <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                        <a >
+                    @foreach($deliverable->activities as $activity)
+                        
+                        <a >      
                           <span class="step">A</span>
                           Making the template document work for yor organization and its stakeholders
                         </a>
-                        
+                    @endforeach    
                       </li>
                       
                       <div id="collapseListGroup21" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
@@ -215,9 +221,11 @@
                     
                   </ul>
                 </div>
+
+@endforeach     
+@endforeach
               </div>
             </div>
-
             <!-- <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading4">

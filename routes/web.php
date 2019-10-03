@@ -26,7 +26,7 @@ Route::get('/structure', function () {
     return view('structure.index');
 });
 
-Route::get('/structure/view', function () {
-    return view('structure.view');
-});
+Route::get('/structure', 'StructureController@index');
+
+Route::resource('policies', 'PolicyController');
 

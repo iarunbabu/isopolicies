@@ -219,26 +219,27 @@
                 
                   
                 </div>
-                <div class="card" style="background-color: #e3ebf6;">
-                  <h4>
+                <div class="box" style="background-color: #e3ebf6;">
+                  <h4 >
                     Linked Work
                     </h4>
-                    <!-- <div class="box-body" style="background-color: #e3ebf6;">
+                    <div class="box-body" style="background-color: #e3ebf6;">
+                      Lorem ipsum represents a long-held tradition for designers,
+                          typographers and the like. Some people hate it and argue for
+                          its demise, but others ignore the hate as they create awesome
+                          tools to help create filler text for everyone from bacon lovers
+                          to Charlie Sheen fans.
                       
-                    </div> -->
+                    </div>
                   
                 </div>
                 </div>
+                <div class="col-md-8 box-header">
+                    <h3 class="box-title">Notes</h3>
+                </div>
                 <div class="col-md-6">
                   <div class="box  box-solid" style="border-color:#3c8dbc">
-                  <div class="box-header ">
-                    <h4 class="box-title">Activity</h4>
-
-                    <div class="box-tools pull-right">
-                      <button type="button" class="btn btn-box-tool" data-widget="remove"></button>
-                    </div>
-                    <!-- /.box-tools -->
-                  </div>
+                  
                   <!-- /.box-header -->
                   <div class="box-body">
                     <div class="col-md-12 margin">
@@ -256,10 +257,9 @@
                       
                       
                     </div>
-                    <div class="user-block">
 
-                          <span><strong>Tips</strong></span>
-                        </div>
+                          <!-- <span><strong>Tips</strong></span> -->
+                          <h4 class="box-title">Tips</h4>
                         <!-- /.user-block -->
                         <p>
                           Lorem ipsum represents a long-held tradition for designers,
@@ -268,13 +268,88 @@
                           tools to help create filler text for everyone from bacon lovers
                           to Charlie Sheen fans.
                         </p>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="box box-default">
+                              <div class="box-header with-border">
+                                <h4 class="box-title">Policy</h4>
+                                <p>
+                                  Lorem ipsum represents a long-held tradition for
+                                  designers,
+                                  typographers and the like. Some people hate it and
+                                  argue for
+                                  its demise, but others ignore the hate as they
+                                  create
+                                  awesome
+                                  tools to help create filler text for everyone from
+                                  bacon
+                                  lovers
+                                  to Charlie Sheen fans.
+                                </p>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                   </div>
                   <!-- /.box-body -->
                   
                 </div>
+                <div>
+                  <h3>To-dos</h3>
+                  <p>No To-dos to display</p>
                 </div>
+                <div>
+                  <h3>Docments</h3>
+
+                  <p>No Docments to display</p>
+                </div>
+                <div>
+                  <h3>Discussions</h3>
+
+                  <p>No Discssions to display</p>
+                </div>
+                
+                </div>
+                <div class="col-md-8"  style="background-color: #e3ebf6;">
+
+                          <form class="form-horizontal">
+                            <div class="box-body">
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">To-do</label>
+                                <div class="col-sm-8">
+                                  <textarea class="form-control" rows="2"></textarea>
+                                </div>
+                              </div>
+
+                              
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Due:</label>
+                                <div class="col-sm-3">
+                                  <input type="text" class="form-control" id="datepicker1" >
+                                </div>
+                                <label for="inputEmail3" class=" control-label activity-label">A reminder notification will be sent to</label>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Assigned to:</label>
+                                <div class="col-sm-5">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                                </div>
+                              </div>
+
+                            </div>
+                          </form>
+
+                      </div>
                 <div class="col-md-2">
-                  hai2
+                  <div class="box-body">
+                    <button type="button" class="btn  btn-success btn-xs  pull-left">Add
+                            Note
+                          </button>
+                  </div>
                 </div>
                 </div>
                 

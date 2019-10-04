@@ -296,23 +296,13 @@
                   <!-- /.box-body -->
                   
                 </div>
-                <div>
-                  <h3>To-dos</h3>
-                  <p>No To-dos to display</p>
-                </div>
-                <div>
-                  <h3>Docments</h3>
 
-                  <p>No Docments to display</p>
-                </div>
-                <div>
-                  <h3>Discussions</h3>
-
-                  <p>No Discssions to display</p>
-                </div>
                 
                 </div>
-                <div class="col-md-8"  style="background-color: #e3ebf6;">
+                <div class="col-md-8">
+                  <h3>To-dos</h3>
+                  <p>No To-dos to display</p>
+                                  <div class=""  style="background-color: #e3ebf6;">
 
                           <form class="form-horizontal">
                             <div class="box-body">
@@ -344,16 +334,63 @@
                           </form>
 
                       </div>
-                <div class="col-md-2">
-                  <div class="box-body">
-                    <button type="button" class="btn  btn-success btn-xs  pull-left">Add
-                            Note
-                          </button>
-                  </div>
                 </div>
+
+
+                <div class="col-md-8">
+                  <h3>Docments</h3>
+
+                  <p>No Docments to display</p>
+                </div>
+                <div class="col-md-8 pull-right">
+                  <h3>Discussions <button type="button" class="btn  btn-success btn-xs  pull-right">Add
+                            Discussions
+                          </button></h3>
+
+                  <p>No Discssions to display</p>
+                  
+                </div>
+
+                
                 </div>
                 
               </div>
+              <div class="col-md-12">
+                  <h3>Add Discussion activity</h3>
+                  <p>No To-dos to display</p>
+                                  <div class=""  style="background-color: #e3ebf6;">
+
+                          <form class="form-horizontal">
+                            <div class="box-body">
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">To-do</label>
+                                <div class="col-sm-8">
+                                  <textarea class="form-control" rows="2"></textarea>
+                                </div>
+                              </div>
+
+                              
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Due:</label>
+                                <div class="col-sm-3">
+                                  <input type="text" class="form-control" id="datepicker1" >
+                                </div>
+                                <label for="inputEmail3" class=" control-label activity-label">A reminder notification will be sent to</label>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Assigned to:</label>
+                                <div class="col-sm-5">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                                </div>
+                              </div>
+
+                            </div>
+                          </form>
+
+                      </div>
+                </div>
             
               
             

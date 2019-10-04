@@ -103,10 +103,7 @@
 
                 
               </div>
-            
-              
-            
-          <div class="box">
+              <div class="box">
             <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
               <div class="panel panel-default" style="background-color: #e3ebf6;">
 
@@ -226,98 +223,52 @@
 @endforeach
               </div>
             </div>
-            <!-- <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
-                  <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                  <a class="collapsed" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4"><span class="step">P</span>ISO Requirements</a>
-                  </h4>
-                </div>
-                <div id="collapseListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
-                  <ul class="">
-                    <li class="panel-collapse collapse in">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup5" aria-expanded="false" aria-controls="collapseListGroup5">
-                        <span class="step">P</span>
-                      Understanding the organization and its context</a>
-                    </li>
-                    <ul >
-                      <li id="collapseListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseListGroup7" aria-expanded="false" aria-controls="collapseListGroup7">4.1 Organization shall determine external and internal issues
-                        </a>
-                        <div id="collapseListGroup7" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
-
-                          <form class="form-horizontal">
-                            <div class="box-body">
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
-                                <div class="col-sm-8">
-                                  <textarea class="form-control" rows="4"></textarea>
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Assigned to:</label>
-                                <div class="col-sm-2">
-                                  <select class="form-control">
-                                    <option>Unassigned</option>
-                                    <option>option 2</option>
-                                    <option>option 3</option>
-                                    <option>option 4</option>
-                                    <option>option 5</option>
-                                  </select>
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label">Refference</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Start date:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker2" >
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label">Due:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker2" >
-                                </div>
-                              </div>
-                              
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label">Days estimated:</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label>Date:</label>
-                                <div class="input-group date">
-                                  <input type="text" class="form-control pull-right" id="datepicker">
-                                  <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                      </li>
-                    </ul>
-                    
-                    <li class="panel-collapse collapse in">
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup6" aria-expanded="false" aria-controls="collapseListGroup6">Normative References with Terms and Conditions
-                      </a>
-                    </li>
-
-                    <ul id="collapseListGroup6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3">
-                      <li>3</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-            </div> -->
+            
           </div>
+            
+              
+            
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar" style="background-color: #e3ebf6;">
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="treeview">
+          <a href="#" style="background-color: #e3ebf6;color: #000;">
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left"></i>
+            </span>
+             <span class="step">P</span><span>Background information</span>
+            
+          </a>
+          <ul class="treeview-menu" style="background-color: #e3ebf6;">
+            <li class="treeview">
+              <a class="margin" href="#"><span class="step">D</span> Access to this environment and team member controls
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+
+              <ul class="treeview-menu" style="background-color: #e3ebf6;">
+                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                <li class="treeview">
+                  <a href="#"><i class="fa fa-circle-o"></i> Level Two
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                  </a>
+                  <ul class="treeview-menu" style="background-color: #e3ebf6;">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </section>
+    <!-- /.sidebar -->
             
           </div>
         </div>

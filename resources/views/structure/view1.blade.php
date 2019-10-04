@@ -230,7 +230,48 @@
                 </div>
                 </div>
                 <div class="col-md-6">
-                  hai1
+                  <div class="box  box-solid" style="border-color:#3c8dbc">
+                  <div class="box-header ">
+                    <h4 class="box-title">Activity</h4>
+
+                    <div class="box-tools pull-right">
+                      <button type="button" class="btn btn-box-tool" data-widget="remove"></button>
+                    </div>
+                    <!-- /.box-tools -->
+                  </div>
+                  <!-- /.box-header -->
+                  <div class="box-body">
+                    <div class="col-md-12 margin">
+                      <strong class="pull-right">
+                        <a  href="">
+                        <i class="fa fa-fw fa-trash"></i> Delete
+                      </a>
+                      </strong>
+                      <strong class="pull-right">
+                        <a  href="">
+                        <i class="fa fa-pencil "></i> Edit
+                      </a>
+                      </strong>
+                      
+                      
+                      
+                    </div>
+                    <div class="user-block">
+
+                          <span><strong>Tips</strong></span>
+                        </div>
+                        <!-- /.user-block -->
+                        <p>
+                          Lorem ipsum represents a long-held tradition for designers,
+                          typographers and the like. Some people hate it and argue for
+                          its demise, but others ignore the hate as they create awesome
+                          tools to help create filler text for everyone from bacon lovers
+                          to Charlie Sheen fans.
+                        </p>
+                  </div>
+                  <!-- /.box-body -->
+                  
+                </div>
                 </div>
                 <div class="col-md-2">
                   hai2

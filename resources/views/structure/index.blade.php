@@ -103,7 +103,10 @@
 
 
             </div>
-            <div class="box">
+
+            
+
+                        <div class="box">
               <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
                 <div class="panel panel-default" style="background-color: #e3ebf6;">
                   @foreach ($policies as $policy)
@@ -219,9 +222,7 @@
               </div>
 
             </div>
-            
 
-            
             
             <header role="banner">
               <nav class="nav" role="navigation">
@@ -251,6 +252,7 @@
               </nav>
             </header>
             <!-- /.sidebar -->
+            
 
           </div>
         </div>

@@ -356,50 +356,42 @@
                 
               </div>
               <div class="col-md-12">
-                  <h3>Add Discussion activity</h3>
-                  <p>No To-dos to display</p>
-                                  <div class=""  style="background-color: #e3ebf6;">
-
-                          <form class="form-horizontal">
-                            <div class="box-body">
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">To-do</label>
-                                <div class="col-sm-8">
-                                  <textarea class="form-control" rows="2"></textarea>
-                                </div>
-                              </div>
-
-                              
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Due:</label>
-                                <div class="col-sm-3">
-                                  <input type="text" class="form-control" id="datepicker1" >
-                                </div>
-                                <label for="inputEmail3" class=" control-label activity-label">A reminder notification will be sent to</label>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-3 control-label activity-label">Assigned to:</label>
-                                <div class="col-sm-5">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
-                                </div>
-                              </div>
-
-                            </div>
-                          </form>
-
+                <h3>Add Discussion activity</h3>
+                <p>No To-dos to display</p>
+                <div class=""  style="background-color: #e3ebf6;">
+                  <form role="form">
+                    <div class="box-body">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Title</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                       </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Body</label>
+                        <textarea class="textarea" placeholder="Place some text here"style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
+                        </textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputFile">Add files</label>
+                        <input type="file" id="exampleInputFile">
+                        <p class="help-block">Each file shold be no longer than 200MB</p>
+                      </div>
+                      <div class="form-group">
+                        <h5>Who do you want to notify?</h5>
+                        <label class="control-label">Select all
+                        </label>
+                        <input type="checkbox">
+                      </div>
+                      <button type="button" class="margin btn  btn-success btn-xs  pull-right">Create
+                            Discussions
+                      </button>
+                      <a class="pull-right margin" href="">Cancel</a>
+                    </div>
+                  </form>
                 </div>
-            
-              
-            
-          
-            
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </section>
 @stop

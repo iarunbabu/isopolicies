@@ -8,4 +8,7 @@ class Policy extends Model
 {
     //
     protected $table='policies';
+      protected $fillable = [
+        'id','name', 'description', 'code',
+    ];
 }

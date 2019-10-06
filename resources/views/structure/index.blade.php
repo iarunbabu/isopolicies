@@ -103,6 +103,127 @@
 
 
             </div>
+@foreach ($policies as $policy)
+                  <div class="box">
+              <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
+                <div class="panel panel-default" style="background-color: #e3ebf6;">
+                  
+                  <div class="panel-heading"  id="collapseListGroupHeading1">
+                    <h4 class="panel-title"><i class="fa fa-caret-down"></i>
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
+                    </h4>
+                  </div>
+                  @if(count($policy->deliverables) > 0)
+                  
+                  <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                      @foreach($policy->deliverables as $deliverable)
+
+                    <ul class="" style="background-color: #e3ebf6;">
+                      <li class="panel-collapse collapse in margin">
+                        <i class="fa fa-caret-down"></i>
+                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
+                       {{$deliverable->name}}</a>
+                        <div class="  pull-right" >
+                          <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-fw fa-trash"></i>Delete
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-files-o"></i>Duplicate
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa fa-retweet"></i>Sort
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-share"></i>Move
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-pencil"></i>Edit
+                          </a>
+                        </div>
+                      </li>
+                      <ul >
+
+                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+
+                          <a >      
+                            <span class="step">A</span>
+                            Making the template document work for yor organization and its stakeholders
+                          </a>
+
+                        </li>
+                        <div id="{{$deliverable->id}}" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+
+                          <form class="form-horizontal">
+                            <div class="box-body">
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Name</label>
+                                <div class="col-sm-8">
+                                  <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Assigned to:</label>
+                                <div class="col-sm-2">
+                                  <select class="form-control">
+                                    <option>Unassigned</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                    <option>option 5</option>
+                                  </select>
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Refference</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Start date:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker1" >
+                                </div>
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Due:</label>
+                                <div class="col-sm-2">
+                                  <input type="text" class="form-control" id="datepicker2" >
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Days estimated:</label>
+                                <div class="col-sm-2">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
+
+                            </div>
+                          </form>
+                        </div>
+                        
+                       <!--  <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                          <i class="fa fa-caret-down"></i>
+                          <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
+                            <span class="step">A</span>
+                            Making the template document work for yor organization and its stakeholders
+                          </a>
+                        </li> -->
+                      </ul>
+
+
+                    </ul>
+                      @endforeach
+
+                  </div>
+            @endif
+
+                </div>
+              </div>
+
+            </div>
+            @endforeach
+
 
             
 
@@ -112,16 +233,17 @@
                   @foreach ($policies as $policy)
                   <div class="panel-heading"  id="collapseListGroupHeading1">
                     <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>Background information</a>
+                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
                     </h4>
                   </div>
+                  @if(count($policy->deliverables) > 0)
                   @foreach($policy->deliverables as $deliverable)
                   <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
                     <ul class="" style="background-color: #e3ebf6;">
                       <li class="panel-collapse collapse in margin">
                         <i class="fa fa-caret-down"></i>
                         <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
-                        Access to this environment and team member controls</a>
+                       {{$deliverable->name}}</a>
                         <div class="  pull-right" >
                           <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#collapseListGroup21" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
                           <a class="btn  btn-xs" href="#">
@@ -216,7 +338,8 @@
                     </ul>
                   </div>
 
-                  @endforeach     
+                  @endforeach
+                  @endif     
                   @endforeach
                 </div>
               </div>

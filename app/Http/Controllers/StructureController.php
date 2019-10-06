@@ -22,8 +22,20 @@ class StructureController extends Controller
 				->get();
 			});
 
+			return $p;
+
 		});
-			
+			// dd($policies);
+// foreach ($policies as $policy) 
+// {
+// 		print_r(count($policy->deliverables));
+	
+// 	foreach ($policy->deliverables as $deliverable) 
+// 		{
+// 		}
+// }
+	// dd($policies);
+		
 		return View::make('structure.index',['policies'=>$policies]);
 	}
 

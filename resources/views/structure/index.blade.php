@@ -142,17 +142,30 @@
                           </a>
                         </div>
                       </li>
-                      <ul >
+                  @if(count($deliverable->activities) > 0)
+                  <div id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
 
-                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+
+                      <ul >
+@foreach($deliverable->activities as $activity)
+
+                        <li  >
 
                           <a >      
                             <span class="step">A</span>
-                            Making the template document work for yor organization and its stakeholders
+                            {{$activity->name}}
                           </a>
 
                         </li>
-                        <div id="{{$deliverable->id}}" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                        @endforeach
+
+                        </ul>
+
+                        @endif
+
+                        <ul>
+                        <li id="{{$deliverable->id}}" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                          <div >
 
                           <form class="form-horizontal">
                             <div class="box-body">
@@ -201,6 +214,9 @@
                             </div>
                           </form>
                         </div>
+                          
+                        </li>
+                        
                         
                        <!--  <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
                           <i class="fa fa-caret-down"></i>

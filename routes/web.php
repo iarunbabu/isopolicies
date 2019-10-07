@@ -30,6 +30,10 @@ Route::get('/structure', 'StructureController@index');
 
 Route::resource('policies', 'PolicyController');
 
+Route::resource('deliverable', 'DeliverableController');
+
+Route::resource('activity', 'ActivityController');
+
 Route::get('/structure/view1', function () {
     return view('structure.view1');
 });

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Activity;
 use Illuminate\Http\Request;
+use Redirect;
+
 
 class ActivityController extends Controller
 {
@@ -25,6 +27,9 @@ class ActivityController extends Controller
     public function create()
     {
         //
+   
+  
+
     }
 
     /**
@@ -36,6 +41,16 @@ class ActivityController extends Controller
     public function store(Request $request)
     {
         //
+        $activity=new Activity;
+        $activity->name=$request->name;
+        $activity->deliverable_id=$request->deliverable_id;
+        $activity->description=$request->name;
+        $activity->code=$request->name;
+        $activity->save();
+    
+               return Redirect::to('structure');
+
+
     }
 
     /**

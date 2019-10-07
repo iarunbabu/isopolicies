@@ -103,28 +103,28 @@
 
 
             </div>
-@foreach ($policies as $policy)
-                  <div class="box">
+            @foreach ($policies as $policy)
+            <div class="box">
               <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
                 <div class="panel panel-default" style="background-color: #e3ebf6;">
-                  
+
                   <div class="panel-heading"  id="collapseListGroupHeading1">
                     <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
+                      <a class="collapsed" data-toggle="collapse" href="#policy{{$policy->id}}" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
                     </h4>
                   </div>
                   @if(count($policy->deliverables) > 0)
                   
-                  <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
-                      @foreach($policy->deliverables as $deliverable)
+                  <div id="policy{{$policy->id}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                    @foreach($policy->deliverables as $deliverable)
 
                     <ul class="" style="background-color: #e3ebf6;">
                       <li class="panel-collapse collapse in margin">
                         <i class="fa fa-caret-down"></i>
-                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
-                       {{$deliverable->name}}</a>
-                        <div class="  pull-right" >
-                          <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
+                        <a class="collapsed margin" data-toggle="collapse" href="#deliverable{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
+                         {{$deliverable->name}}</a>
+                         <div class="  pull-right" >
+                          <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#deliverableform{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
                           <a class="btn  btn-xs" href="#">
                             <i class="fa fa-fw fa-trash"></i>Delete
                           </a>
@@ -142,256 +142,97 @@
                           </a>
                         </div>
                       </li>
-                  @if(count($deliverable->activities) > 0)
-                  <div id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                      @if(count($deliverable->activities) > 0)
+                      <div id="deliverable{{$deliverable->id}}" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
 
 
-                      <ul >
-@foreach($deliverable->activities as $activity)
+                        <ul >
+                          @foreach($deliverable->activities as $activity)
+                          <li>
+                            <a>      
+                              <span class="step">A</span>
+                              {{$activity->name}}
+                            </a>
 
-                        <li  >
-
-                          <a >      
-                            <span class="step">A</span>
-                            {{$activity->name}}
-                          </a>
-
-                        </li>
-                        @endforeach
+                          </li>
+                          @endforeach
 
                         </ul>
 
                         @endif
 
                         <ul>
-                        <li id="{{$deliverable->id}}" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
-                          <div >
+                          <li id="deliverableform{{$deliverable->id}}" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
+                            <div >
 
-                          <form class="form-horizontal">
-                            <div class="box-body">
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Name</label>
-                                <div class="col-sm-8">
-                                  <textarea class="form-control" rows="4"></textarea>
+                              <form class="form-horizontal" method="POST" action="{{url('activity')}}">
+                               <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                               <input type="hidden" name="deliverable_id" value="{{$deliverable->id }}">
+
+                               <div class="box-body">
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Name</label>
+                                  <div class="col-sm-8">
+                                    <textarea class="form-control" name="name" rows="4"></textarea>
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Assigned to:</label>
+                                  <div class="col-sm-2">
+                                    <select class="form-control">
+                                      <option>Unassigned</option>
+                                      <option>option 2</option>
+                                      <option>option 3</option>
+                                      <option>option 4</option>
+                                      <option>option 5</option>
+                                    </select>
+                                  </div>
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Refference</label>
+                                  <div class="col-sm-2">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Start date:</label>
+                                  <div class="col-sm-2">
+                                    <input type="text" class="form-control" id="datepicker1" >
+                                  </div>
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Due:</label>
+                                  <div class="col-sm-2">
+                                    <input type="text" class="form-control" id="datepicker2" >
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-2 control-label activity-label">Days estimated:</label>
+                                  <div class="col-sm-2">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
                                 </div>
                               </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Assigned to:</label>
-                                <div class="col-sm-2">
-                                  <select class="form-control">
-                                    <option>Unassigned</option>
-                                    <option>option 2</option>
-                                    <option>option 3</option>
-                                    <option>option 4</option>
-                                    <option>option 5</option>
-                                  </select>
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Refference</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                              <div class="row">
+                                <div class="col-md-12">                                  
+                                  <button class="btn btn-xs btn-success" >Save</button>
                                 </div>
                               </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Start date:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker1" >
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Due:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker2" >
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Days estimated:</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                              </div>
-
-                            </div>
-                          </form>
-                        </div>
-                          
+                            </form>
+                          </div>
                         </li>
-                        
-                        
-                       <!--  <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                          <i class="fa fa-caret-down"></i>
-                          <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
-                            <span class="step">A</span>
-                            Making the template document work for yor organization and its stakeholders
-                          </a>
-                        </li> -->
                       </ul>
 
 
                     </ul>
-                      @endforeach
+                    @endforeach
 
                   </div>
-            @endif
+                  @endif
 
                 </div>
               </div>
 
             </div>
             @endforeach
-
-
-            
-
-                        <div class="box">
-              <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
-                <div class="panel panel-default" style="background-color: #e3ebf6;">
-                  @foreach ($policies as $policy)
-                  <div class="panel-heading"  id="collapseListGroupHeading1">
-                    <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                      <a class="collapsed" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
-                    </h4>
-                  </div>
-                  @if(count($policy->deliverables) > 0)
-                  @foreach($policy->deliverables as $deliverable)
-                  <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
-                    <ul class="" style="background-color: #e3ebf6;">
-                      <li class="panel-collapse collapse in margin">
-                        <i class="fa fa-caret-down"></i>
-                        <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
-                       {{$deliverable->name}}</a>
-                        <div class="  pull-right" >
-                          <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#collapseListGroup21" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
-                          <a class="btn  btn-xs" href="#">
-                            <i class="fa fa-fw fa-trash"></i>Delete
-                          </a>
-                          <a class="btn  btn-xs" href="#">
-                            <i class="fa fa-files-o"></i>Duplicate
-                          </a>
-                          <a class="btn  btn-xs" href="#">
-                            <i class="fa fa fa-retweet"></i>Sort
-                          </a>
-                          <a class="btn  btn-xs" href="#">
-                            <i class="fa fa-share"></i>Move
-                          </a>
-                          <a class="btn  btn-xs" href="#">
-                            <i class="fa fa-pencil"></i>Edit
-                          </a>
-                        </div>
-                      </li>
-                      <ul >
-                        @foreach($deliverable->activities as $activity)
-
-                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-
-                          <a >      
-                            <span class="step">A</span>
-                            Making the template document work for yor organization and its stakeholders
-                          </a>
-
-                        </li>
-                        @endforeach    
-                        <div id="collapseListGroup21" class="panel-collapse collapse box-body" role="tabpanel" aria-labelledby="collapseListGroupHeading4">
-
-                          <form class="form-horizontal">
-                            <div class="box-body">
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Name</label>
-                                <div class="col-sm-8">
-                                  <textarea class="form-control" rows="4"></textarea>
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Assigned to:</label>
-                                <div class="col-sm-2">
-                                  <select class="form-control">
-                                    <option>Unassigned</option>
-                                    <option>option 2</option>
-                                    <option>option 3</option>
-                                    <option>option 4</option>
-                                    <option>option 5</option>
-                                  </select>
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Refference</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Start date:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker1" >
-                                </div>
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Due:</label>
-                                <div class="col-sm-2">
-                                  <input type="text" class="form-control" id="datepicker2" >
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label for="inputEmail3" class="col-sm-2 control-label activity-label">Days estimated:</label>
-                                <div class="col-sm-2">
-                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                                </div>
-                              </div>
-
-                            </div>
-                          </form>
-                        </div>
-                        
-                        <li  id="collapseListGroup2" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-                          <i class="fa fa-caret-down"></i>
-                          <a class="collapsed margin" data-toggle="collapse" href="#collapseListGroup22" aria-expanded="false" aria-controls="collapseListGroup2">
-                            <span class="step">A</span>
-                            Making the template document work for yor organization and its stakeholders
-                          </a>
-                        </li>
-                      </ul>
-
-
-                    </ul>
-                  </div>
-
-                  @endforeach
-                  @endif     
-                  @endforeach
-                </div>
-              </div>
-
-            </div>
-
-            
-            <header role="banner">
-              <nav class="nav" role="navigation">
-                <ul class="nav__list">
-                  @foreach ($policies as $policy)
-                  <li>
-                    <input id="group-1" type="checkbox" hidden />
-                    <label for="group-1"><span class="fa fa-angle-right custom-margin" ></span> <div class="circle">P</div>First level</label>
-                    @foreach($policy->deliverables as $deliverable)
-                    <ul class="group-list">
-                      <input id="sub-group-1" type="checkbox" hidden />
-                      <label for="sub-group-1"><span class="fa fa-angle-right custom-margin" ></span><div class="circle">D</div> Second level</label>
-                                              
-
-                      <ul class="sub-group-list">
-                        @foreach($deliverable->activities as $activity)
-                        <label><div class="circle">A</div> Second level</label><br/>
-                        @endforeach
-                      </ul>
-                      
-                    </ul>
-                    
-                    @endforeach
-                  </li>
-                  @endforeach
-                </ul>
-              </nav>
-            </header>
-            <!-- /.sidebar -->
-            
 
           </div>
         </div>

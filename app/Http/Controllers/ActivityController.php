@@ -61,7 +61,7 @@ class ActivityController extends Controller
      */
     public function show(Activity $activity)
     {
-        //
+        return View('structure.view');
     }
 
     /**

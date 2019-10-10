@@ -41,6 +41,9 @@
 
                         <!--  Chart -->
                         <script type="text/javascript" src="{{ asset('js/Chart.js') }}"></script>
+                         <!--  DropZone -->
+                        <script type="text/javascript" src="{{ asset('js/dropzone.js') }}"></script>
+
                         <script type="text/javascript">
   $(function(){
     $('#datepicker').datepicker({

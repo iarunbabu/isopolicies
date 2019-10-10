@@ -339,22 +339,10 @@
 
                 <div class="col-md-8">
                   <h3>Docments</h3>
-                  <div class="zone">
-
-  <div id="dropZ">
-    <i class="fa fa-cloud-upload"></i>
-    <div>Drag and drop your file here</div>                    
-    <span>OR</span>
-    <div class="selectFile">       
-      <label for="file">Select file</label>                   
-      <input type="file" name="files[]" id="file">
-    </div>
-    <p>File size limit : 10 MB</p>
-  </div>
-
-</div>
-
-                  <p>No Docments to display</p>
+                  <form style="background-color: #fff4ec;" method="post" action="{{url('image/upload/store')}}" enctype="multipart/form-data" 
+                  class="dropzone" id="dropzone">
+  
+                  <i class="fa fa-cloud-upload"></i>
                 </div>
                 <div class="col-md-8 pull-right">
                   <h3>Discussions <button type="button" class="btn  btn-success btn-xs  pull-right">Add
@@ -374,7 +362,7 @@
                 <p>No To-dos to display</p>
                 <div class=""  style="background-color: #e3ebf6;">
                   <form role="form">
-                    <div class="box-body">
+                    <div class="box-body" style="background-color: #fff4ec;">
                       <div class="form-group">
                         <label for="exampleInputEmail1">Title</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">

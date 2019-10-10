@@ -29,6 +29,9 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ asset('/css/_all-skins.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/bootstrap3-wysihtml5.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/dropzone.min.css') }}">
+
+
     <!-- Custom style -->
     <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->

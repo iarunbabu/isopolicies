@@ -149,7 +149,7 @@
                         <ul >
                           @foreach($deliverable->activities as $activity)
                           <li>
-                            <a>      
+                            <a href="{{url('/structure/view1')}}">      
                               <span class="step">A</span>
                               {{$activity->name}}
                             </a>

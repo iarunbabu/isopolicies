@@ -299,6 +299,16 @@
 
                 
                 </div>
+                <div class="col-sm-2">
+                  <button type="button" class="btn-success btn  btn-xs">Add Note</button>
+                  <!-- <div class="box">
+                    <div class="box-body" style="background-color: #e3ebf6;">
+                    sdffdsdsdsdsdsdsds sdfsdsfsfsdsd
+                  </div>
+                  </div> -->
+                  
+
+                </div>
                 <div class="col-md-8">
                   <h3>To-dos</h3>
                   <p>No To-dos to display</p>

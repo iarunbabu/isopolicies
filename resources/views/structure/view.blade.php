@@ -338,11 +338,31 @@
 
 
                 <div class="col-md-8">
-                  <h3>Docments</h3>
+                  <div class="row"> 
+                    <div class="col-md-8">
+                      <h3>Documents</h3>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="button" class="margin btn  btn-success btn-xs  pull-right">Add Document
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
                   <form style="background-color: #fff4ec;" method="post" action="{{url('image/upload/store')}}" enctype="multipart/form-data" 
                   class="dropzone" id="dropzone">
   
                   <i class="fa fa-cloud-upload"></i>
+                  </div>
+</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                           <button type="button" class="margin btn  btn-success btn-xs  pull-right">Create
+                            Document
+                      </button>
+                      <a class="pull-right margin" href="">Cancel</a>
+                          </div>
                 </div>
                 <div class="col-md-8 pull-right">
                   <h3>Discussions <button type="button" class="btn  btn-success btn-xs  pull-right">Add

@@ -118,3 +118,10 @@ span.step {
   transition: all 0.3s ease-out;
   opacity: 1;
 }
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+

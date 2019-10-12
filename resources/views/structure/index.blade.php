@@ -25,7 +25,7 @@
             <a style="background-color: #3c8dbc;color: white;" href="{{url('/headlines')}}">Headlines</a>
           </li>
           <li>
-            <a href="#tab_1" data-toggle="tab" >Structure</a>
+            <a href="{{url('/structure')}}" data-toggle="tab" >Structure</a>
           </li>
           <li>
             <a style="background-color: #3c8dbc;color: white;" href="{{url('/approved')}}">Approved</a>
@@ -116,7 +116,7 @@
 
                     </h4>
                   </div><div class="col-md-6">
-                      <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>  
+                      <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Policy</a>  
                       </div>
                     </div>
                     
@@ -157,11 +157,13 @@
                         <ul >
                           @foreach($deliverable->activities as $activity)
                           <li>
+                            <div class="row margin">
+                              <div class="col-md-12">
                             <a href="{{url('/activity')}}/{{$activity->id}}">      
                               <span class="step">A</span>
                               {{$activity->name}}
                             </a>
-
+</div></div>
                           </li>
                           @endforeach
 

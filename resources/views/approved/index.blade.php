@@ -12,7 +12,7 @@
           <!-- Custom Tabs -->
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class=""><a style="background-color: #3c8dbc;color: white;"  href="{{url('/headlines')}}" data-toggle="tab">Headlines</a></li>
+              <li class=""><a style="background-color: #3c8dbc;color: white;"  href="{{url('/headlines')}}" >Headlines</a></li>
               <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/structure')}}" >Structure</a></li>
               <li><a href="{{url('/approved')}}" >Approved</a></li>
               <li><a style="background-color: #3c8dbc;color: white;" href="{{url('/tools')}}" >Tools</a></li>

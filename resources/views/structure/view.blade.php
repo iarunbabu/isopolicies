@@ -25,7 +25,7 @@
             <a style="background-color: #3c8dbc;color: white;" href="{{url('/headlines')}}">Headlines</a>
           </li>
           <li>
-            <a href="#tab_1" data-toggle="tab" >Structure</a>
+            <a href="{{url('/structure')}}" >Structure</a>
           </li>
           <li>
             <a style="background-color: #3c8dbc;color: white;" href="{{url('/approved')}}">Approved</a>
@@ -289,13 +289,12 @@
                                   lovers
                                   to Charlie Sheen fans.
                                 </p>
-
-                                <a href="#block-id"class="" data-toggle="collapse"aria-expanded="false"aria-controls="block-id">
+                                <a href="#block-id" class="align-middle" data-toggle="collapse"aria-expanded="false"aria-controls="block-id">
                                   
-                                  <span class="collapsed">
+                                  <span class="collapsed " style="padding-left: 45%;">
                                     Show more
                                   </span>
-                                  <span class="expanded">
+                                  <span class="expanded " style="padding-left: 45%;">
                                     Show Less
                                   </span>
                                   

@@ -117,7 +117,7 @@
                     <div class="col-md-3">Open</div>
 
                     <div class="col-md-6 ">
-                      <button type="button" class="btn-success btn  btn-xs">Sbmit for approval</button>
+                      <button type="button" class="btn-success btn  btn-xs">Submit for approval</button>
 
                     </div>
                     
@@ -323,9 +323,17 @@
 
               </div>
               <div class="col-md-8">
-                <h3>To-dos</h3>
-                <p>No To-dos to display</p>
-                <div class=""  style="background-color: #e3ebf6;">
+                         <div class="row"> 
+                  <div class="col-md-8">
+                    <h3>To-Do</h3>
+                  </div>
+                  <div class="col-md-4">
+                      <!-- <button type="button" class="margin btn  btn-success btn-xs  pull-right">Add Document
+                      </button> -->
+                      <a href="#to-do"class="margin btn  btn-success btn-xs  pull-right" data-toggle="collapse"aria-expanded="false"aria-controls="docment-block">Add To-do</a>
+                    </div>
+                  </div>
+                <div class="row collapse" id="to-do"  style="background-color: #e3ebf6;">
 
                   <form class="form-horizontal">
                     <div class="box-body">

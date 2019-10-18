@@ -81,42 +81,28 @@
                   <strong>
                     <a href="">Collapse all</a>
                   </strong>
-
-
-
                 </div>
-
-
                 <div class="col-md-3 pull-right  border-right">
                   <strong>
                     <a href="">Expand all</a>
-
                   </strong>
-
                 </div>
-
-                
               </div>
-
-              
-              
-
-
             </div>
             @foreach ($policies as $policy)
             <div class="box">
               <div class="panel-group" role="tablist" style="background-color: #e3ebf6;">
-                <div class="panel panel-default" style="background-color: #e3ebf6;">
+                <div class="panel panel-default " style="background-color: #e3ebf6;">
 
-                  <div class="panel-heading"  id="collapseListGroupHeading1">
-                    <div class="row">
-                      <div class="col-md-6">
+                  <div class="panel-heading on-hover"  id="collapseListGroupHeading1">
+                    <div class="row ">
+                      <div class="col-md-6 ">
                     <h4 class="panel-title"><i class="fa fa-caret-down"></i>
                       <a class="collapsed" data-toggle="collapse" href="#policy{{$policy->id}}" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
 
                     </h4>
-                  </div><div class="col-md-6">
-                      <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Policy</a>  
+                  </div><div class="col-md-6 div-hover">
+                      <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Deliverable</a>  
                       </div>
                     </div>
                     
@@ -127,11 +113,11 @@
                     @foreach($policy->deliverables as $deliverable)
 
                     <ul class="" style="background-color: #e3ebf6;">
-                      <li class="panel-collapse collapse in margin">
+                      <li class="panel-collapse collapse in margin on-child-hover">
                         <i class="fa fa-caret-down"></i>
                         <a class="collapsed margin" data-toggle="collapse" href="#deliverable{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
                          {{$deliverable->name}}</a>
-                         <div class="  pull-right" >
+                         <div class="  pull-right div-child-hover" >
                           <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#deliverableform{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
                           <a class="btn  btn-xs" href="#">
                             <i class="fa fa-fw fa-trash"></i>Delete

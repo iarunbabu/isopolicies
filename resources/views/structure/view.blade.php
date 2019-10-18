@@ -394,15 +394,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12 collapse" id="docment-block">
-                 <button type="button" class="margin btn  btn-success btn-xs  pull-right">Create
-                  Document
-                </button>
-                <a class="pull-right margin" href="">Cancel</a>
-              </div>
-            </div>
-            <div class="col-md-8 pull-right">
+                     <div class="col-md-8 pull-right">
               <h3>Discussions 
                     <!-- <button type="button" class="btn  btn-success btn-xs  pull-right">Add
                             Discussions
@@ -455,6 +447,15 @@
                 </div>
               </div>
             </div>
+              <div class="row">
+                <div class="col-md-12 collapse" id="docment-block">
+                 <button type="button" class="margin btn  btn-success btn-xs  pull-right">Create
+                  Document
+                </button>
+                <a class="pull-right margin" href="">Cancel</a>
+              </div>
+            </div>
+     
           </div>
         </section>
         @stop

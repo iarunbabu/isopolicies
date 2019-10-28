@@ -96,13 +96,12 @@
 
                   <div class="panel-heading on-hover"  id="collapseListGroupHeading1">
                     <div class="row ">
-                      <div class="col-md-6 ">
-                    <h4 class="panel-title"><i class="fa fa-caret-down"></i>
-                      <a class="collapsed" data-toggle="collapse" href="#policy{{$policy->id}}" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>
-
-                    </h4>
-                  </div><div class="col-md-6 div-hover">
-                      <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Deliverable</a>  
+                      <div class="col-md-12 ">
+                    <i class="fa fa-caret-down"></i>
+                      <a class="collapsed" data-toggle="collapse" href="#policy{{$policy->id}}" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>  
+                  </div>
+                  
+                   <div class="div-hover" style="position: absolute;right: 1px">  <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Deliverable</a>  
                       </div>
                     </div>
                     
@@ -114,10 +113,17 @@
 
                     <ul class="" style="background-color: #e3ebf6;">
                       <li class="panel-collapse collapse in margin on-child-hover">
+                        <div class="row">
+                        <div  class="col-md-12" >
                         <i class="fa fa-caret-down"></i>
                         <a class="collapsed margin" data-toggle="collapse" href="#deliverable{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2"><span class="step">D</span>
                          {{$deliverable->name}}</a>
-                         <div class="  pull-right div-child-hover" >
+</div>
+
+                         <div class="div-child-hover" style="position: absolute;right: 1px;background-color: #fff;padding: 3px">
+
+
+
                           <a  class="btn btn-xs btn-success" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse" href="#deliverableform{{$deliverable->id}}" aria-expanded="false" aria-controls="collapseListGroup2">Add Activity</a>
                           <a class="btn  btn-xs" href="#">
                             <i class="fa fa-fw fa-trash"></i>Delete
@@ -134,6 +140,7 @@
                           <a class="btn  btn-xs" href="#">
                             <i class="fa fa-pencil"></i>Edit
                           </a>
+                        </div>
                         </div>
                       </li>
                       @if(count($deliverable->activities) > 0)

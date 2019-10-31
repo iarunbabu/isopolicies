@@ -101,7 +101,21 @@
                       <a class="collapsed" data-toggle="collapse" href="#policy{{$policy->id}}" aria-expanded="false" aria-controls="collapseListGroup1"><span class="step">P</span>{{$policy->name}}</a>  
                   </div>
                   
-                   <div class="div-hover" style="position: absolute;right: 1px">  <a  class="btn btn-xs btn-success pull-right" class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Deliverable</a>  
+                   <div class="div-hover" style="position: absolute; right: 1px;background-color: #fff; padding: 3px; ">  
+
+                    <a  class="btn btn-xs btn-success " class=" btn btn-xs btn-success collapsed margin" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseListGroup2">Add Deliverable</a>
+                   <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-fw fa-trash"></i>Delete
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-files-o"></i>Duplicate
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa fa-retweet"></i>Sort
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-pencil"></i>Edit
+                          </a>  
                       </div>
                     </div>
                     
@@ -145,18 +159,35 @@
                       </li>
                       @if(count($deliverable->activities) > 0)
                       <div id="deliverable{{$deliverable->id}}" class="panel-collapse collapse margin" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
-
-
                         <ul >
                           @foreach($deliverable->activities as $activity)
-                          <li>
+                          <li class="on-active-hover">
                             <div class="row margin">
                               <div class="col-md-12">
                             <a href="{{url('/activity')}}/{{$activity->id}}">      
                               <span class="step">A</span>
                               {{$activity->name}}
                             </a>
-</div></div>
+</div>
+<div class="div-active-hover" style="position: absolute;right: 1px;background-color: #fff;padding: 3px">
+          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-fw fa-trash"></i>Delete
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-files-o"></i>Duplicate
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa fa-retweet"></i>Sort
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-share"></i>Move
+                          </a>
+                          <a class="btn  btn-xs" href="#">
+                            <i class="fa fa-pencil"></i>Edit
+                          </a>
+</div>
+
+</div>
                           </li>
                           @endforeach
 

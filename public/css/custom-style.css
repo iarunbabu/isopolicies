@@ -13,3 +13,12 @@
 .on-child-hover:hover .div-child-hover {
     display: block;
 }
+
+.div-active-hover{
+	display: none;
+}
+
+.on-active-hover:hover .div-active-hover{
+	display: block;
+}
+

@@ -22,3 +22,12 @@
 	display: block;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:not([aria-expanded="true"]) .fa.fa-caret-up,
+a[aria-expanded="false"] .fa.fa-caret-up,
+a[aria-expanded="true"] .fa.fa-caret-down {
+   display:none;
+}
